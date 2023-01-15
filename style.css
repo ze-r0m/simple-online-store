@@ -7,11 +7,11 @@ body {
     list-style-type : none;
 }
 .menu li a {
-    color : #417037;
     text-decoration: none;
 }
 .menu li a:hover{
     text-decoration: underline;
+    color : #417037;
 }
 h3 {
     color: black;
@@ -60,4 +60,47 @@ h1 + p{
 input {
     width: 150px;
     height: 20px;
+}
+
+.header-logo{
+    width: 50px;
+}
+input[type="email"]{
+    background-color: black;
+    color: white;
+}
+input[type="email"]::placeholder{
+    color: white;
+}
+input[type="text"]:first-letter{
+    text-transform: capitalize;
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    text-align: center;
+}
+th{
+    border: 1px solid black;
+}
+.img-border{
+    outline: 1px solid #417037;
+}
+.img-border:hover{
+    outline: none;
+}
+p:first-letter{
+    font-size: 25px;
+    font-style: italic;
+    font-family: Consolas;
+}
+.tb-span td{
+    width: 50px;
+    height: 50px;
+}
+.tb-span tr:first-child {
+    height: 100px;
 }
